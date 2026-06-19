@@ -1,2 +1,4 @@
 # Sentiment-Analysis-Hybrid-Models
-This is My PG project.
+Sentiment analysis plays a critical role in Natural Language Processing (NLP) for understanding user opinions, particularly in domains like movie reviews. This paper proposes two novel hybrid deep learning architectures: RoBERTa-BiGRU-MHA (combining RoBERTa-large with Bidirectional GRU and Multi-Head Attention) and ELECTRA-BiLSTM (integrating ELECTRA-base with Bidirectional LSTM). These models address limitations of traditional methods and standalone transformers by effectively capturing both global semantic context and local sequential dependencies in long, complex reviews from the IMDB dataset.
+Evaluated on a balanced 10,000-sample subset (80:20 train-test split), the RoBERTa-BiGRU-MHA model achieved 93.85% accuracy, 93.74% F1-score, and strong precision. The ELECTRA-BiLSTM model delivered 91.35% accuracy with superior efficiency (faster training and inference). Results demonstrate a clear trade-off between accuracy and computational efficiency, validating the effectiveness of hybrid transformer-RNN-attention designs for sentiment classification.
+
